@@ -4,10 +4,7 @@ Every time a card is used in prison, a hash function is applied on its parameter
 
 `grantAccess()` iterates through prison rooms by recursively applying `getNeighbours()` method. On every iteration Java Reflection is being used to exchange unmodifiable `allowedPersons` set with a new set that contains in addition to previous content a Person object with my data. Furthermore, given set `toString` is overridden to avoid printing out my name in "event logs". Although when my cell `allowedPersons` set is being modified, regular set will be used to make sure my name gets printed out.
 
-Every time I use my card KeyCardParser makes sure that I have access to any room I want in prison.
+Now every time I use my card, KeyCardParser makes sure that I have access to any room I want in prison :)
 
-
-Development of solution finished: March 23, 2019
-Writing the description finished: March 29, 2019
 
 
