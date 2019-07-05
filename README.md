@@ -1,4 +1,4 @@
-# PrisonRoomSolution
+# PrisonRoom
 
 Every time a card is used in prison, a hash function is applied on its parameters. The result from `hashCode()` is then compared with an integer, which is the result of the same hash function applied on my name (myObject.hashCode() -> 1237684444). Only in case where my card is being used, the parameters (firstname and lastname) are taken and forwarded to a method `grantAccess()` that grants access to every room in the prison.
 
